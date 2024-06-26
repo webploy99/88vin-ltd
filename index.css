@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.log {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px; 
+}
+.log a{
+  padding: 5px 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: #ffd166 0px 0px 0px 1.3px, #f1faee 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.log a:first-child{
+  background-color: #4361ee;
+}
+.log a:last-child{
+  background-color: #ef233c;
+}
+.log a:hover{
+  background-color: #edf2f4;
+  color: #372D61;
+}
+
+
+/* download button */
+.cssbuttons-io-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 330px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0.6em 1.5em 0.6em 1.2em;
+    color: white;
+    background: #EA1388;
+    background: #EA1388;
+    border: 2px solid #EA1388;
+    border-radius: 20em;
+  }
+  .cssbuttons-io-button:hover {
+    background: #b80b6a;
+    box-shadow: 0 0.5em 1.5em -0.5em #EA1388;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #EA1388;
+  }
+.bg{
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+h2{
+    color: #eadd51;
+    margin-top: 30px;
+    display: block;
+}
+h3{
+    color: #eadd51;
+    margin-top: 30px;
+    display: block;
+}
+
+.download{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.download:hover{
+  background-color: green;
+  color: white;
+}
+  
+.link-down{
+  text-align: center;
+  border-radius: 20px;
+  background-color: #372D61;
+  border: blue solid 1px;
+  max-width: 300px;
+}  
+
